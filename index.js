@@ -1,6 +1,4 @@
 const express = require('express');
-const mongoose = require("mongoose");
-mongoose.set('strictQuery', false);
 const app = express();
 app.use(express.json());
 const port = 2356;
